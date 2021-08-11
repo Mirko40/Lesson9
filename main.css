@@ -1,0 +1,129 @@
+
+body {
+    background: black;
+    margin-top: 50px;
+ }
+ .container {
+    padding: 0;
+    background:radial-gradient( #f3e8e8 30%,#FFFFFF 100%);
+ 
+    width: 1600px;
+    height: 1200px;
+    margin: auto;
+    display: flex;
+   align-items: center;
+   align-self: center;
+  }
+  .container2 {
+    padding: 0;
+    background: #FFFFFF;
+    width: 1400px;
+    height: 940px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+   align-self:center;
+   /* border: 2px solid red; */
+   
+  }
+  .container3 {
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    width: 1140px;
+    height: 500px;
+    margin-left: 121px;
+    margin-top: 39px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content:space-around;
+   /* align-self:center; */
+
+   /* border: 2px solid red; */
+   
+  }
+  .head {
+    box-sizing: border-box;
+    width: 384px;
+    height: 51px;
+    font-size: 42px;
+    letter-spacing: 0px;
+    color: #171717;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    margin-top: 141px;
+    margin-left: 121px;
+    
+        /* padding:0; */
+   
+  }
+ 
+  .text1::first-letter {
+    font-size: 110px;
+    letter-spacing: -1px;
+    line-height: 80px;
+    color: #171717;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif; 
+    padding-top: 4px; padding-right: 30px; 
+    float: left;
+  }
+  .text1 {
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+    color: #171717;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 25px;
+      
+    }
+    .text2 {
+       
+        font-size: 19px;
+        letter-spacing: 0.5px;
+        line-height: 36px;
+        color: #171717;
+        font-weight: 300;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 25px; 
+        }   
+  
+.text3 {
+    font-size: 24px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    line-height: 34px;
+    
+font-family: 'Lato', sans-serif;
+}
+span{
+    font-size: 70px;
+    letter-spacing: -1px;
+    line-height: 20px;
+    color: #171717;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif; 
+    padding-top: 4px; padding-right: 30px; 
+    float: left;
+}
+.button {
+  
+border: 2px solid #EAA258;
+background-color: #FFFFFF;;
+width: 265px;
+height: 69px;
+margin-left: 121px;
+margin-top: 38px;
+font-size: 18px;
+letter-spacing: 4px;
+line-height: 34px;
+color: #eaa258;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+cursor: pointer; 
+text-transform: uppercase;
+}
