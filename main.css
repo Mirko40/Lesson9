@@ -5,20 +5,22 @@ body {
  }
  .container {
     padding: 0;
-    background:radial-gradient( #f3e8e8 30%,#FFFFFF 100%);
- 
+    /* background:radial-gradient( #f3e8e8 30%,#FFFFFF 100%); */
+    background: #f3e8e8;
     width: 1600px;
     height: 1200px;
     margin: auto;
     display: flex;
    align-items: center;
    align-self: center;
-  }
+  box-shadow: inset 0 0 3em 4em #FFFFFF;
+ }
   .container2 {
     padding: 0;
     background: #FFFFFF;
     width: 1400px;
     height: 940px;
+   
     margin: auto;
     display: flex;
     flex-direction: column;
