@@ -13,7 +13,7 @@ body {
     display: flex;
    align-items: center;
    align-self: center;
-  box-shadow: inset 0 0 3em 4em #FFFFFF;
+  box-shadow: inset 0 0 2em 5em #FFFFFF;
  }
   .container2 {
     padding: 0;
@@ -27,7 +27,7 @@ body {
     align-items: left;
    align-self:center;
    /* border: 2px solid red; */
-   
+  
   }
   .container3 {
     padding: 0;
@@ -58,8 +58,7 @@ body {
     margin-top: 141px;
     margin-left: 121px;
     
-        /* padding:0; */
-   
+       
   }
  
   .text1::first-letter {

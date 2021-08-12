@@ -1,0 +1,36 @@
+body {
+    background: black;
+    margin-top: 50px;
+ }
+ .container {
+    padding: 0;
+    background: #464F53;
+    width: 1200px;
+    height: 900px;
+    margin: auto;
+    margin-top: 50;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   align-self: center;
+ }
+ .text {
+    width: 1060px;
+    height: 752px;
+    background: #FFFFFF;
+    border: 2px solid red;
+    margin: auto;
+    margin-top: 150px;
+   
+   }
+.head {
+   box-sizing: border-box;
+   margin: auto;
+   width: 877px;
+    height: 188px;
+   background: black;
+   border: 2px solid red;
+   position: relative;
+   top:-855px; left: 161.5px;
+   
+}
