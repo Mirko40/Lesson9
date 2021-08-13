@@ -13,8 +13,37 @@
    font-style: normal;
    font-weight: 300;
    src:local("Georgia");
-   src:url("Fonts/Georgia-Regular.woff");  
+   src:url("Fonts/Georgia-Regular.woff"); 
+   
+  /* font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v97/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2'); */
 }
+.material-icons {
+   font-family: 'Material Icons';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 30px;
+   line-height: 1;
+   letter-spacing: normal;
+   text-transform: none;
+   display: inline-block;
+   margin-top: 25px;
+   margin-left: 20px;
+
+   white-space: nowrap;
+   word-wrap: normal;
+   direction: ltr;
+   -webkit-font-feature-settings: 'liga';
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+   color: #FADC94;
+ }
+ .material-icons:hover {
+   color: #FEFEFE;
+   cursor: pointer;
+ }
 body {
     background: black;
     margin-top: 50px;
@@ -35,7 +64,7 @@ body {
     width: 1060px;
     height: 752px;
     background: #FFFFFF;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: auto;
     margin-top: 150px;
     display: flex;
@@ -60,11 +89,12 @@ body {
       font-size: 20px;
       letter-spacing: 4px;
       color: #b4b4b4;
-      font-family: "Proxima Nova"; 
+      font-family: "Proxima Nova";
+      margin-top: 30px; 
      }
      .text3{
         padding: 0;
-        margin-top: 47px;
+        margin-top: 40px;
       font-size: 70px;
       letter-spacing: 4px;
       line-height: 74px;
@@ -76,9 +106,9 @@ body {
      
      .text4 {
         
-        margin-bottom: 57px;
+        margin-bottom: 50px;
       font-size: 30px;
-line-height: 62px;
+line-height: 55px;
 color: #8f8f8f;
 font-style: italic;
 font-family: "Georgia";
@@ -86,20 +116,20 @@ text-align: left;
      }
      .text5 {
       font-size: 27px;
-      line-height: 35px;
+      line-height: 30px;
       color: #000000;
       font-family: "Georgia";
       text-align: left;
       margin-bottom: 37px;
       
      }
-     span {
+     .Ital {
         font-style: italic;
      }
      .text6 {
-      margin-bottom: 37px;
+      margin-bottom: 35px;
       font-size: 27px;
-line-height: 35px;
+line-height: 30px;
 color: #000000;
 font-family: "Georgia";
 text-align: left;
@@ -111,7 +141,7 @@ text-align: left;
    margin: auto;
    width: 877px;
     height: 188px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
    position: relative;
    top:-855px; left: 162px;
    filter: drop-shadow(-3.536px -3.536px 29.5px rgba(0,0,0,0.16));
@@ -123,12 +153,13 @@ background-color: #181818;
    box-sizing: border-box;
 font-size: 15px;
 letter-spacing: 5px;
-line-height: 40px;
+line-height: 70px;
 color: #767676;
 font-family: "Proxima Nova";
 text-transform: uppercase; 
 margin-left: 65px;
-margin-top: 20px;
+margin-top: 40px;
+
  
 }
 input {
@@ -139,7 +170,7 @@ input {
    border: none;
    border-bottom: 2px solid #303030;
    font-size: 48px;
-   line-height: 80px;
+   line-height: 60px;
    color: #fefefe;
    font-weight: 400;
    font-family: 'Playfair Display', serif;
@@ -153,8 +184,8 @@ input {
    width: 813px;
     height: 77px;
    background: #FBBF2D;
-   border: 2px solid red;
+   /* border: 2px solid red; */
    position: relative;
    top:-857px; left: 194px;
-   
+  padding-left: 43px; 
 }
